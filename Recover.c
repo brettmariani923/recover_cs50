@@ -47,7 +47,6 @@ int main(int argc, char *argv[])
             }
         }
 
-        // ✅ This line writes the current 512-byte block to the JPEG file
         if (img != NULL)
         {
             fwrite(buffer, 1, 512, img);
